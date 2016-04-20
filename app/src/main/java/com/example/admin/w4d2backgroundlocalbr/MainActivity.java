@@ -22,7 +22,8 @@ public class MainActivity extends AppCompatActivity {
     private BroadcastReceiver mMessageReceiver = new BroadcastReceiver() {
         @Override
         public void onReceive(Context context, Intent intent) {
-            mainLayout.setBackgroundColor(234);
+            Log.d("TAG", "onReceive: ");
+            mainLayout.setBackgroundColor(1);
         }
     };
 }

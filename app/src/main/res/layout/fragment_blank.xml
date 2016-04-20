@@ -6,8 +6,9 @@
 
     <!-- TODO: Update blank fragment layout -->
     <Button
-        android:onClick="doMaMagic"
+        android:id="@+id/blank_btn"
         android:layout_width="match_parent"
-        android:layout_height="match_parent" />
+        android:layout_height="match_parent"
+        android:text="do MamaGic"/>
 
 </FrameLayout>
